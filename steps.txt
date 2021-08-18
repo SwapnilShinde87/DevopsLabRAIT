@@ -1,0 +1,138 @@
+    1  pwd
+    2  cd E:/
+    3  ped
+    4  pwd
+    5  mkdir gitdemo
+    6  cd gitdemo/
+    7  git init
+    8  touch README.md
+    9  git status
+   10  git status
+   11  git add .
+   12  git status
+   13  git commit -m "Initial commit"
+   14  git config --global user.email "swapnil.shinde@rait.ac.in"
+   15  git config --global user.name "SwapnilShinde87"
+   16  git commit -m "Initial commit"
+   17  git status
+   18  git log
+   19  git diff
+   20  git remote add origin https://github.com/SwapnilShinde87/DevopsLab.git
+   21  git remote -v
+   22  git status
+   23  git pull
+   24  git pull
+   25  git status
+   26  ls -ltr
+   27  git pull origin master
+   28  git pull origin master
+   29  git credential-store helper
+   30  cd E:
+   31  cd gitdemo/
+   32  ls -ltr
+   33  git config credential.helper store
+   34  git push
+   35  git push --set-upstream origin master
+   36  git pull
+   37  git pull origin master
+   38  git init
+   39  touch new.txt
+   40  vi new.txt
+   41  cat new.txt
+   42  git status
+   43  git add new.txt
+   44  git status
+   45  man commit
+   46  commit --help
+   47  help commit
+   48  man -k commit
+   49  info commit
+   50  commit -m "first change"
+   51  git commit -m "first change"
+   52  touch fyfile.py
+   53  git status
+   54  git add fyfile.py
+   55  git status
+   56  git commit -m "newfile"
+   57  git status
+   58  git rm --cached fyfile.py 
+   59  git status
+   60  git commit -m "deletefile"
+   61  sit status
+   62  git status
+   63  git branch trial1
+   64  checkout trial1
+   65  git checkout trial1
+   66  git add.
+   67  git add
+   68  git add .
+   69  git status
+   70  git add fyfile.py
+   71  git status
+   72  commit -m "update"
+   73  git commit -m "update"
+   74  git status
+   75  git checkout master
+   76  git checkout trial1
+   77  git checkout master
+   78  git remote
+   79  git remote add devopsL https://github.com/SwapnilShinde87/DevopsLabRAIT.git
+   80  git push -u devopsL master
+   81  git merge trial1
+   82  git push -u devopsL master
+   83  git push -u devopsL trial1
+   84  git push -u devopsL trial1
+   85  git push -u devopsL trial1
+   86  git config --list
+   87  git help commit
+   88  man git - commit
+   89  man git -commit
+   90  git help config
+   91  git add -h
+   92  git status
+   93  exit
+   94  ls
+   95  cd Gittrial
+   96  ls
+   97  git checkout
+   98  git checkout trial1
+   99  ls
+  100  vim new.txt
+  101  git status
+  102  git add new.txt 
+  103  git status
+  104  git commit -m "changes"
+  105  git status
+  106  git checkout master 
+  107  vim new.txt 
+  108  git checkout trial1
+  109  vim new.txt 
+  110  git push origin trial1
+  111  git remote -v
+  112  git push devopsL trial1
+  113  Join Zoom Meeting
+  114  https://us04web.zoom.us/j/5207864079
+  115  Meeting ID: 520 786 4079
+  116  Passcode: 294533
+  117  git config --global credential.helper store
+  118  vim fyfile.py 
+  119  git status
+  120  git add fyfile.py 
+  121  git commit -m "newchange"
+  122  git status
+  123  git push devopsL trial1
+  124  git remote rm devopsL
+  125  git remote add origin https://github.com/SwapnilShinde87/DevopsLabRAIT.git
+  126  git push origin trial1
+  127  git remote -v
+  128  git checkout master
+  129  git checkout trial1
+  130  git checkout master
+  131  git pull 
+  132  git pull origin master
+  133  git checkout trial1
+  134  git merge master
+  135  vim new.txt 
+  136  save history > gitsteps.txt
+  137  history
+  138  history > steps.txt
